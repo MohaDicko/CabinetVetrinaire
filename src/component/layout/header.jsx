@@ -13,7 +13,7 @@ import PhoneIcon from "@mui/icons-material/Phone";
 // import AdbIcon from "@mui/icons-material/Adb";
 import { useTheme } from "@mui/material/styles";
 import { Button } from "@mui/material";
-import Logowhite from "../../assets/LOGO.png";
+import Logowhite from "../../assets/logooo.webp";
 const pages = [
   "Qui sommes nous ?",
   "Services",
@@ -70,7 +70,7 @@ function ResponsiveAppBar({ onNavigate }) {
             }}
             className="titleLogo"
           >
-            {"Pharmacie Kamsir"}
+            {"Cabinet Veterinaire "}
           </Typography>
 
           <Box sx={{ flexGrow: 1, display: { xs: "flex", md: "none" } }}>
@@ -133,13 +133,13 @@ function ResponsiveAppBar({ onNavigate }) {
               <IconButton
                 sx={{ color: "white" }}
                 component="a"
-                href="tel:20241942"
+                href="tel: 037686624"
               >
                 <PhoneIcon className="tel" />
               </IconButton>
             </Tooltip>
             <Typography variant="h6" sx={{ color: "white", ml: 1 }}>
-            20241942
+            037686624
             </Typography>
           </Box>
         </Toolbar>

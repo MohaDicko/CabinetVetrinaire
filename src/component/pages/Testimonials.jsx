@@ -9,13 +9,13 @@ import image2 from "../images/testimonialIG/Z2.png";// Correction de l'emplaceme
 
 const testimonials = [
   {
-    name: 'Assi KEITA',
-    text: ' "Je suis très satisfait du service de la pharmacie. Le personnel est toujours aimable et compétent. Ils répondent toujours à mes questions et me conseillent bien sur mes médicaments. Je recommande cette pharmacie à tous mes amis et ma famille!"',
+    name: 'Manar',
+    text: ' "Je suis extrêmement satisfait du service du Cabinet Vétérinaire Animax. Le personnel est toujours chaleureux et professionnel. Ils répondent à toutes mes questions avec patience et me conseillent parfaitement sur les soins pour mes animaux. Je recommande vivement ce cabinet à tous mes amis et ma famille "',
     image: image1 // Utilisation de l'image importée
   },
   {
-    name: 'Jane Smith',
-    text: ' "J apprécie énormément l équipe de cette pharmacie. Ils sont toujours disponibles pour répondre à mes questions et me guider dans mes choix de produits de santé. Leur service est rapide et efficace, ce qui me facilite la vie. Je suis reconnaissante d avoir une pharmacie aussi fiable près de chez moi!"',
+    name: 'Mariam',
+    text: ' "Le Cabinet Vétérinaire Animax est exceptionnel. Chaque visite est une expérience positive grâce à leur équipe attentive et bienveillante. Ils prennent le temps d expliquer les traitements et montrent un véritable amour pour les animaux. Je n hésite pas à les recommander à tous ceux qui cherchent des soins de qualité pour leurs compagnons !"',
     image: image2 // Utilisation de l'image importée
   },
   // Ajoutez plus de témoignages ici

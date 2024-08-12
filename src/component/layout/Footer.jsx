@@ -1,4 +1,5 @@
 import React from "react";
+
 import {
   Box,
   Container,
@@ -55,7 +56,7 @@ const Footer = () => {
                 </IconButton>
               </Box>
               <Typography variant="body2" color="text.secondary" mt={2}>
-              "Votre santé, notre priorité : Bienvenue à la Pharmacie Humaine!"
+              "Bienvenue dans notre univers dédié à la santé Animale !"
               </Typography>
             </Grid>
             <Grid item xs={12} sm={8}>
@@ -73,7 +74,7 @@ const Footer = () => {
                   url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
                   attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
                 />
-                <Marker position={[12.66447, -7.94898]}>
+                <Marker position={[33.9804, -6.8634]}>
                   <Popup>We are here!</Popup>
                 </Marker>
               </MapContainer>
@@ -103,7 +104,7 @@ const Footer = () => {
         </Container>
       </Box>
       <a
-          href="https://wa.me/22374132032"
+          href="https://wa.me/+21261393874"
           className="float"
           target="_blank"
           rel="noreferrer"

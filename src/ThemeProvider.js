@@ -1,16 +1,18 @@
 import { createTheme } from "@mui/material/styles";
 import { lime } from "@mui/material/colors";
+import { SiX } from "react-icons/si";
 
 
 const myCustomColors = {
     primary: "#112D4E",
-    secondary: "#DBE2EF",
-    white: "#F9F7F7",
-    one: "#F6E9B2",
-    two: "#F3CA52",
+    secondary: "#DBE2EF",     //#fe7d0c ORANGE
+    white: "#F9F7F7",        //  #FFFFFF       BLANC
+    one: "#D3D3D3",
+    two: "#FFFFFF",
     three: "#7ABA78",
     four: "#0A6847",
     five: "#E1E5EE",
+    SiX: "#0080ff",
 };
 
 export const theme = createTheme({
@@ -42,7 +44,7 @@ export const theme = createTheme({
             main: myCustomColors.three,
         },
         four: {
-            main: myCustomColors.four,
+            main: myCustomColors.SiX,
         },
 
         five: {

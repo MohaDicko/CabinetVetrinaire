@@ -10,8 +10,8 @@ import {
   Box,
   CardMedia
 } from "@mui/material";
-import M1 from "../images/A4.jpg";
-import M3 from "../images/A2.jpg";
+import M1 from "../images/s1.webp";
+import M3 from "../images/s2.webp";
 import { useTheme } from "@emotion/react";
 import ReactPlayer from "react-player";
 
@@ -37,9 +37,9 @@ function SeancesSection() {
 
   const images = [M3, M1, ""];
   const titles = [
-    "Tensiométrie",
-    "Glycémie",
-    "Vidéo Live session",
+    "Medecine",
+    "Chirurgie",
+    "Pharmacie Veterinaire ",
   ];
 
   return (
@@ -59,7 +59,7 @@ function SeancesSection() {
                 />
                 {index === 2 ? (
                   <ReactPlayer
-                    url="https://www.youtube.com/watch?v=yUpGOPueQAc"
+                    url="https://youtu.be/oVADsUt6474?feature=shared"
                     style={imageStyle}
                     controls
                   />

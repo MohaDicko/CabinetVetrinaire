@@ -12,11 +12,9 @@ import {
   Paper,
 } from "@mui/material";
 // Import Material-UI icons
-import AnchorIcon from "@mui/icons-material/Anchor";
-import GroupIcon from "@mui/icons-material/Group";
-import SpaIcon from "@mui/icons-material/Spa";
+import PetsIcon from '@mui/icons-material/Pets'; // Importer l'icône Pets
 import { Link } from "react-router-dom";
-import PhotoSbai from "../images/X2.jpg";
+import PhotoSbai from "../images/veto10.jpg";
 import { styled } from "@mui/material/styles";
 import MyBlob from "../images/blob.svg";
 import { theme } from "../../ThemeProvider";
@@ -71,7 +69,7 @@ function PresentationSection({ onNavigate }) {
               gutterBottom
               sx={{ color: theme.palette.four.main, fontWeight: "bold" }}
             >
-              Dr KEITA Oumou TOUNKARA
+              Dr El Bied Anas-Igor
             </Typography>
           </Fade>
           <Typography
@@ -80,7 +78,7 @@ function PresentationSection({ onNavigate }) {
             textAlign="start"
             gutterBottom
           >
-            Docteur en pharmacie 
+            Docteur Veterinaire 
           </Typography>
 
           <Container className="text-center p-2">
@@ -103,7 +101,7 @@ function PresentationSection({ onNavigate }) {
 
             <div className="flex items-center gap-4 justify-end mb-6">
               <SocialLink
-                href="https://www.instagram.com/sbai_mohamed01/"
+                href="#"
                 target="_blank"
                 rel="noopener noreferrer"
                 gradient="linear-gradient(45deg, #f09433, #e6683c, #dc2743, #cc2366, #bc1888)"
@@ -111,7 +109,7 @@ function PresentationSection({ onNavigate }) {
                 <InstagramIcon />
               </SocialLink>
               <SocialLink
-                href="https://www.tiktok.com/@sbai.mohamedhypnose"
+                href="#"
                 target="_blank"
                 rel="noopener noreferrer"
                 gradient="linear-gradient(45deg, #69C9D0, #010101)"
@@ -130,13 +128,13 @@ function PresentationSection({ onNavigate }) {
             </Typography>
             <List sx={{ ml: 2 }}>
               {[
-                "La distribution des médicaments",
-                "Conseil pharmaceutique",
-                "Vente de produit de santé",
+                "Medecine",
+                "Chirurgie",
+                "Santé Veterinaire ",
                 "Service de santé",
                 
-                "La gestion des ordonances",
-                "L'education à la santé",
+                "Suivit de ferme ",
+                "Gestion de troupeau rural, urbain ou mixte",
                 
                 
               ].map((text, index) => (
@@ -166,22 +164,22 @@ function PresentationSection({ onNavigate }) {
             <Grid container spacing={3} mt={3}>
               {[
                 {
-                  Icon: AnchorIcon,
-                  title: "Pharma",
+                  Icon: PetsIcon,
+                  title: "Veto",
                   description:
-                    "La santé est la plus grande richesse.",
+                    "Les animaux, notre plus fidèle réconfort.",
                 },
                 {
-                  Icon: GroupIcon,
-                  title: "Pharma",
+                  Icon: PetsIcon,
+                  title: "Veto",
                   description:
-                    "La pharmacie : un pont vers une vie plus saine.",
+                    "S'occuper des animaux, c'est aimer sans limite.",
                 },
                 {
-                  Icon: SpaIcon,
-                  title: "Pharma",
+                  Icon: PetsIcon,
+                  title: "Veto",
                   description:
-                    "Ensemble, pour votre santé.",
+                    "La véritable grandeur d'un homme se mesure à la manière dont il traite les animaux.",
                 },
               ].map((service, index) => (
                 <Grid item xs={12} md={4} key={index}>
@@ -229,7 +227,7 @@ function PresentationSection({ onNavigate }) {
       </Box>
       <Box sx={{ bgcolor: theme.palette.two.main, p: 6 }}>
         <Typography variant="h3" component="h2" gutterBottom>
-          Pharmacie KAMSIR
+          Cabinet Veterinaire
           <Box
             component="span"
             sx={{
@@ -249,10 +247,12 @@ function PresentationSection({ onNavigate }) {
           </Box>
         </Typography>
         <Typography variant="h6" sx={{ textAlign: "justify", mt: 2, p: 3 }}>
-        "Chez Pharmacie Kamsir, nous rendons votre expérience de 
-        commande de médicaments plus pratique que jamais.
-        Notre service de précommande en ligne vous permet de planifier
-        à l'avance et de recevoir vos médicaments sans tracas, directement à votre porte"
+         "Chez nous , nous veillons à la santé de vos animaux 
+         avec une attention particulière. Notre service de prise 
+         de rendez-vous en ligne simplifie vos visites, vous permettant
+         de planifier les consultations
+         à l avance et de garantir les meilleurs soins 
+         pour vos compagnons à quatre pattes, sans tracas ."
         </Typography>
       </Box>
     </>
