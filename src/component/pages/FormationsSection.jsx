@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+/*import React, { useState, useEffect } from "react";
 import {
   Container,
   Typography,
@@ -102,4 +102,4 @@ function FormationsSection() {
   );
 }
 
-export default FormationsSection;
+export default FormationsSection;*/
