@@ -69,7 +69,7 @@ function PresentationSection({ onNavigate }) {
               gutterBottom
               sx={{ color: theme.palette.four.main, fontWeight: "bold" }}
             >
-              Dr El Bied Anas-Igor
+              Dr ZAINABOU TOURE 
             </Typography>
           </Fade>
           <Typography
@@ -128,11 +128,10 @@ function PresentationSection({ onNavigate }) {
             </Typography>
             <List sx={{ ml: 2 }}>
               {[
-                "Medecine",
+                "Profilaxie",
+                "Traitement",
                 "Chirurgie",
-                "Santé Veterinaire ",
                 "Service de santé",
-                
                 "Suivit de ferme ",
                 "Gestion de troupeau rural, urbain ou mixte",
                 
