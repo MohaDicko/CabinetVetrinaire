@@ -29,7 +29,7 @@ const sectionIds = [
   "contact-section",
 ];
 
-function ResponsiveAppBar({ onNavigate }) {
+function Header ({ onNavigate }) {
   const [anchorElNav, setAnchorElNav] = React.useState(null);
   const theme = useTheme();
 
@@ -148,4 +148,4 @@ function ResponsiveAppBar({ onNavigate }) {
   );
 }
 
-export default ResponsiveAppBar;
+export default Header;
